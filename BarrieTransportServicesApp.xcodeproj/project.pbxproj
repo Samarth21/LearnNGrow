@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A980027F22E8F7DB00BFD1EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980027E22E8F7DB00BFD1EB /* AppDelegate.swift */; };
+		A980028122E8F7DB00BFD1EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980028022E8F7DB00BFD1EB /* ViewController.swift */; };
+		A980028422E8F7DB00BFD1EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A980028222E8F7DB00BFD1EB /* Main.storyboard */; };
+		A980028622E8F7DC00BFD1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A980028522E8F7DC00BFD1EB /* Assets.xcassets */; };
+		A980028922E8F7DC00BFD1EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A980028722E8F7DC00BFD1EB /* LaunchScreen.storyboard */; };
+		A980029422E8F7DC00BFD1EB /* BarrieTransportServicesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980029322E8F7DC00BFD1EB /* BarrieTransportServicesAppTests.swift */; };
+		A980029F22E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980029E22E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests.swift */; };
+		A98002AD22E8FC6900BFD1EB /* DriverDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98002AC22E8FC6900BFD1EB /* DriverDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A980029022E8F7DC00BFD1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A980027322E8F7DB00BFD1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A980027A22E8F7DB00BFD1EB;
+			remoteInfo = BarrieTransportServicesApp;
+		};
+		A980029B22E8F7DC00BFD1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A980027322E8F7DB00BFD1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A980027A22E8F7DB00BFD1EB;
+			remoteInfo = BarrieTransportServicesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A980027B22E8F7DB00BFD1EB /* BarrieTransportServicesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarrieTransportServicesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A980027E22E8F7DB00BFD1EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A980028022E8F7DB00BFD1EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A980028322E8F7DB00BFD1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A980028522E8F7DC00BFD1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A980028822E8F7DC00BFD1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A980028A22E8F7DC00BFD1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A980028F22E8F7DC00BFD1EB /* BarrieTransportServicesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrieTransportServicesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A980029322E8F7DC00BFD1EB /* BarrieTransportServicesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarrieTransportServicesAppTests.swift; sourceTree = "<group>"; };
+		A980029522E8F7DC00BFD1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A980029A22E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrieTransportServicesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A980029E22E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarrieTransportServicesAppUITests.swift; sourceTree = "<group>"; };
+		A98002A022E8F7DC00BFD1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98002AC22E8FC6900BFD1EB /* DriverDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A980027822E8F7DB00BFD1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A980028C22E8F7DC00BFD1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A980029722E8F7DC00BFD1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A980027222E8F7DB00BFD1EB = {
+			isa = PBXGroup;
+			children = (
+				A980027D22E8F7DB00BFD1EB /* BarrieTransportServicesApp */,
+				A980029222E8F7DC00BFD1EB /* BarrieTransportServicesAppTests */,
+				A980029D22E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests */,
+				A980027C22E8F7DB00BFD1EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A980027C22E8F7DB00BFD1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A980027B22E8F7DB00BFD1EB /* BarrieTransportServicesApp.app */,
+				A980028F22E8F7DC00BFD1EB /* BarrieTransportServicesAppTests.xctest */,
+				A980029A22E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A980027D22E8F7DB00BFD1EB /* BarrieTransportServicesApp */ = {
+			isa = PBXGroup;
+			children = (
+				A980027E22E8F7DB00BFD1EB /* AppDelegate.swift */,
+				A980028022E8F7DB00BFD1EB /* ViewController.swift */,
+				A980028222E8F7DB00BFD1EB /* Main.storyboard */,
+				A980028522E8F7DC00BFD1EB /* Assets.xcassets */,
+				A980028722E8F7DC00BFD1EB /* LaunchScreen.storyboard */,
+				A980028A22E8F7DC00BFD1EB /* Info.plist */,
+				A98002AC22E8FC6900BFD1EB /* DriverDetails.swift */,
+			);
+			path = BarrieTransportServicesApp;
+			sourceTree = "<group>";
+		};
+		A980029222E8F7DC00BFD1EB /* BarrieTransportServicesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A980029322E8F7DC00BFD1EB /* BarrieTransportServicesAppTests.swift */,
+				A980029522E8F7DC00BFD1EB /* Info.plist */,
+			);
+			path = BarrieTransportServicesAppTests;
+			sourceTree = "<group>";
+		};
+		A980029D22E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A980029E22E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests.swift */,
+				A98002A022E8F7DC00BFD1EB /* Info.plist */,
+			);
+			path = BarrieTransportServicesAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A980027A22E8F7DB00BFD1EB /* BarrieTransportServicesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98002A322E8F7DC00BFD1EB /* Build configuration list for PBXNativeTarget "BarrieTransportServicesApp" */;
+			buildPhases = (
+				A980027722E8F7DB00BFD1EB /* Sources */,
+				A980027822E8F7DB00BFD1EB /* Frameworks */,
+				A980027922E8F7DB00BFD1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarrieTransportServicesApp;
+			productName = BarrieTransportServicesApp;
+			productReference = A980027B22E8F7DB00BFD1EB /* BarrieTransportServicesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A980028E22E8F7DC00BFD1EB /* BarrieTransportServicesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98002A622E8F7DC00BFD1EB /* Build configuration list for PBXNativeTarget "BarrieTransportServicesAppTests" */;
+			buildPhases = (
+				A980028B22E8F7DC00BFD1EB /* Sources */,
+				A980028C22E8F7DC00BFD1EB /* Frameworks */,
+				A980028D22E8F7DC00BFD1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A980029122E8F7DC00BFD1EB /* PBXTargetDependency */,
+			);
+			name = BarrieTransportServicesAppTests;
+			productName = BarrieTransportServicesAppTests;
+			productReference = A980028F22E8F7DC00BFD1EB /* BarrieTransportServicesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A980029922E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98002A922E8F7DC00BFD1EB /* Build configuration list for PBXNativeTarget "BarrieTransportServicesAppUITests" */;
+			buildPhases = (
+				A980029622E8F7DC00BFD1EB /* Sources */,
+				A980029722E8F7DC00BFD1EB /* Frameworks */,
+				A980029822E8F7DC00BFD1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A980029C22E8F7DC00BFD1EB /* PBXTargetDependency */,
+			);
+			name = BarrieTransportServicesAppUITests;
+			productName = BarrieTransportServicesAppUITests;
+			productReference = A980029A22E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A980027322E8F7DB00BFD1EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Samarth Patel";
+				TargetAttributes = {
+					A980027A22E8F7DB00BFD1EB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A980028E22E8F7DC00BFD1EB = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A980027A22E8F7DB00BFD1EB;
+					};
+					A980029922E8F7DC00BFD1EB = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A980027A22E8F7DB00BFD1EB;
+					};
+				};
+			};
+			buildConfigurationList = A980027622E8F7DB00BFD1EB /* Build configuration list for PBXProject "BarrieTransportServicesApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A980027222E8F7DB00BFD1EB;
+			productRefGroup = A980027C22E8F7DB00BFD1EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A980027A22E8F7DB00BFD1EB /* BarrieTransportServicesApp */,
+				A980028E22E8F7DC00BFD1EB /* BarrieTransportServicesAppTests */,
+				A980029922E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A980027922E8F7DB00BFD1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A980028922E8F7DC00BFD1EB /* LaunchScreen.storyboard in Resources */,
+				A980028622E8F7DC00BFD1EB /* Assets.xcassets in Resources */,
+				A980028422E8F7DB00BFD1EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A980028D22E8F7DC00BFD1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A980029822E8F7DC00BFD1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A980027722E8F7DB00BFD1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98002AD22E8FC6900BFD1EB /* DriverDetails.swift in Sources */,
+				A980028122E8F7DB00BFD1EB /* ViewController.swift in Sources */,
+				A980027F22E8F7DB00BFD1EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A980028B22E8F7DC00BFD1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A980029422E8F7DC00BFD1EB /* BarrieTransportServicesAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A980029622E8F7DC00BFD1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A980029F22E8F7DC00BFD1EB /* BarrieTransportServicesAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A980029122E8F7DC00BFD1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A980027A22E8F7DB00BFD1EB /* BarrieTransportServicesApp */;
+			targetProxy = A980029022E8F7DC00BFD1EB /* PBXContainerItemProxy */;
+		};
+		A980029C22E8F7DC00BFD1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A980027A22E8F7DB00BFD1EB /* BarrieTransportServicesApp */;
+			targetProxy = A980029B22E8F7DC00BFD1EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A980028222E8F7DB00BFD1EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A980028322E8F7DB00BFD1EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A980028722E8F7DC00BFD1EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A980028822E8F7DC00BFD1EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98002A122E8F7DC00BFD1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98002A222E8F7DC00BFD1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98002A422E8F7DC00BFD1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarrieTransportServicesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samarth.sp.BarrieTransportServicesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A98002A522E8F7DC00BFD1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarrieTransportServicesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samarth.sp.BarrieTransportServicesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A98002A722E8F7DC00BFD1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarrieTransportServicesAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samarth.sp.BarrieTransportServicesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarrieTransportServicesApp.app/BarrieTransportServicesApp";
+			};
+			name = Debug;
+		};
+		A98002A822E8F7DC00BFD1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarrieTransportServicesAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samarth.sp.BarrieTransportServicesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarrieTransportServicesApp.app/BarrieTransportServicesApp";
+			};
+			name = Release;
+		};
+		A98002AA22E8F7DC00BFD1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarrieTransportServicesAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samarth.sp.BarrieTransportServicesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarrieTransportServicesApp;
+			};
+			name = Debug;
+		};
+		A98002AB22E8F7DC00BFD1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarrieTransportServicesAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samarth.sp.BarrieTransportServicesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarrieTransportServicesApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A980027622E8F7DB00BFD1EB /* Build configuration list for PBXProject "BarrieTransportServicesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98002A122E8F7DC00BFD1EB /* Debug */,
+				A98002A222E8F7DC00BFD1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98002A322E8F7DC00BFD1EB /* Build configuration list for PBXNativeTarget "BarrieTransportServicesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98002A422E8F7DC00BFD1EB /* Debug */,
+				A98002A522E8F7DC00BFD1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98002A622E8F7DC00BFD1EB /* Build configuration list for PBXNativeTarget "BarrieTransportServicesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98002A722E8F7DC00BFD1EB /* Debug */,
+				A98002A822E8F7DC00BFD1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98002A922E8F7DC00BFD1EB /* Build configuration list for PBXNativeTarget "BarrieTransportServicesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98002AA22E8F7DC00BFD1EB /* Debug */,
+				A98002AB22E8F7DC00BFD1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A980027322E8F7DB00BFD1EB /* Project object */;
+}
